@@ -127,7 +127,7 @@ Set your own MySQL password as an environment variable in the terminal used to s
 set "MYSQL_PASSWORD=YOUR_ACTUAL_MYSQL_PASSWORD"
 ```
 
-Replace the placeholder locally with your actual password. Never publish it in the README or source code.
+Replace the placeholder locally with your actual password. 
 
 Inspect `create_tables.py` and run it if it is the intended table-creation script for your current implementation. Confirm that the required `products` table exists before starting the application.
 
@@ -312,6 +312,6 @@ Potential next steps include:
 
 ## Learning Outcomes
 
-This project helped explore backend API design, HTTP request forwarding, database persistence, rate limiting, request logging, rule-based monitoring, and a basic ML anomaly-detection integration.
+This project helped me to explore backend API design, HTTP request forwarding, database persistence, rate limiting, request logging, rule-based monitoring, and a basic ML anomaly-detection integration.
 
 The goal is to demonstrate the design and behaviour of a working local prototype while being transparent about its limitations.

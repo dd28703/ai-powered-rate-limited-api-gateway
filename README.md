@@ -121,7 +121,7 @@ The application currently expects a local MySQL server with these settings:
 - Username: `root`
 - Database: `api_gateway_db`
 
-Set your own MySQL password as an environment variable in the terminal used to start the backend. Do not commit the real password.
+Set your own MySQL password as an environment variable in the terminal used to start the backend.
 
 ```bat
 set "MYSQL_PASSWORD=YOUR_ACTUAL_MYSQL_PASSWORD"
